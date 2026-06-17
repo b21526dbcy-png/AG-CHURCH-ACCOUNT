@@ -38,7 +38,7 @@ If you push this project to GitHub, you can use the GitHub Actions workflow in `
 
 ## Vercel Deployment
 
-This repo is now ready for Vercel Docker deployment.
+This repo is now configured for Vercel Python deployment.
 
 1. Install the Vercel CLI if you want:
    - `npm install -g vercel`
@@ -47,7 +47,7 @@ This repo is now ready for Vercel Docker deployment.
 3. Deploy from the project root:
    - `vercel --prod`
 
-Vercel will use `vercel.json` and the `Dockerfile` to build your app.
+Vercel will use `vercel.json` to build and deploy your Flask app using `@vercel/python`.
 
 ## Notes
 
